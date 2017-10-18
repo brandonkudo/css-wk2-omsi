@@ -1,0 +1,102 @@
+.container {
+  background-color: white;;
+}
+ #astronaut {
+   width: 100%;
+   position: relative;
+   z-index: -1;
+ }
+
+ #astronautimage {
+   width: 100vw;
+ }
+
+#space {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#spaceprompts {
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 65vw;
+  height: 10vh;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#select1 {
+  border-radius: 5px;
+  width: 15vw;
+  display: inline-block;
+}
+
+#select2 {
+
+  border-radius: 5px;
+  width: 15vw;
+  display: inline-block;
+}
+
+#explorebutton {
+  border-radius: 5px;
+  width: 15vw;
+  background-color: #AF0627;
+  color: white;
+  display: inline-block;
+}
+
+#closuremessage {
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+
+}
+
+#pompeiibox {
+  background-color: #4E92DF;
+  color: white;
+  text-align: center;
+}
+
+.gallery {
+  background: linear-gradient(white, grey);
+  text-align: center;
+}
+
+
+.col-md-6 {
+  height: 35vh;
+}
+
+.gallerytext {
+  float: left;
+}
+
+.gallerypic {
+  float: right;
+}
+
+.galleryimage {
+  width: 80%;
+  height: 80%;
+}
+
+#rocketbox {
+  position: relative;
+  width: 100vw;
+  z-index: -1;
+  height: 33vh;
+  border-bottom: 10px solid red;
+}
+
+#rocketpic {
+  width: 100vw;
+}
